@@ -5,13 +5,19 @@ Cocos2d-LeapMotion
 
 This repo is meant to put template projects to get people started quickly or solve problems with getting Cocos2d up and running with Leap Motion integration.
 
-To start with is a project for:
+Two projects exist now, one for Chipmunk physics engine and one for Box2d physics engine.
+
+Chipmunk project:
 - OS X, XCode (Tested on OS X 10.8.4 and Xcode 4.6.2)
 - using ARC (Automated Reference Counting); this version of cocos2d defaults to non-ARC so the main purpose of this template is to bypass the need for repeating getting Cocos2d prepared for a Leap project that uses ARC, which the Sample Leap project does.
 - v2.0 of Cocos2d-iPhone (yes, it says iPhone but it is for both iOS and OS X)
-- Box2d (just found out it is planned to be discontinued in v2.1 of Cocos2d, solely supporting Chipmunk thereafter)
+- Chipmunk (in v2.1 of Cocos2d and beyond Chipmunk is the sole physics engine available)
 
-I will add a chipmunk version soon.
+Box 2d project:
+- OS X, XCode (Tested on OS X 10.8.4 and Xcode 4.6.2)
+- using ARC (Automated Reference Counting); this version of cocos2d defaults to non-ARC so the main purpose of this template is to bypass the need for repeating getting Cocos2d prepared for a Leap project that uses ARC, which the Sample Leap project does.
+- v2.0 of Cocos2d-iPhone (yes, it says iPhone but it is for both iOS and OS X)
+- Box2d (in v2.1 of Cocos2d and beyond Chipmunk is the sole physics engine available)
 
 To not use the template, the steps I have followed to create the template are:
 
