@@ -13,11 +13,14 @@ To start with is a project for:
 
 To not use the template, the steps I have followed to create the template are:
 1. perform all the steps in the following (selecting static library in step 9 for latest versions of XCode): http://www.learn-cocos2d.com/2012/04/enabling-arc-cocos2d-project-howto-stepbystep-tutorialguide/
+
 2. Building Settings for Application Target:
-    - C++ Language Dialect forced to GNU++11 (-std=gnu++11)
-    - C++ Standard Library (GNU C++ standard library)
+- C++ Language Dialect forced to GNU++11 (-std=gnu++11)
+- C++ Standard Library (GNU C++ standard library)
+
 3. Build Phases for Application Target:
-    - Click "Add Build Phase" and select "Add Copy Files"
-    - Set "Destination" to "Executables"
-    - Click "+" button and find the leap library "libLeap.dylib"
+- Click "Add Build Phase" and select "Add Copy Files"
+- Set "Destination" to "Executables"
+- Click "+" button and find the leap library "libLeap.dylib"
+
 4. Change name of project (clicking on blue project name in files navigator), accepting all changes.
