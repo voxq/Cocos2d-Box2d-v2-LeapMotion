@@ -8,8 +8,10 @@ This repo is meant to put template projects to get people started quickly or sol
 To start with is a project for:
 - OS X, XCode (Tested on OS X 10.8.4 and Xcode 4.6.2)
 - using ARC (Automated Reference Counting); this version of cocos2d defaults to non-ARC so the main purpose of this template is to bypass the need for repeating getting Cocos2d prepared for a Leap project that uses ARC, which the Sample Leap project does.
-- v2.0 of Cocos2d 
+- v2.0 of Cocos2d-iPhone (yes, it says iPhone but it is for both iOS and OS X)
 - Box2d (just found out it is planned to be discontinued in v2.1 of Cocos2d, solely supporting Chipmunk thereafter)
+
+I will add a chipmunk version soon.
 
 To not use the template, the steps I have followed to create the template are:
 
